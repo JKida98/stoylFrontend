@@ -2,7 +2,7 @@ import axios from "axios";
 
 const getClientAxios = () => {
     const options = {
-        baseURL: "http://localhost:8080/api/",
+        baseURL: "https://weselichos.herokuapp.com/api/",
         headers: {
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "*",
